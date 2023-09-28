@@ -16,7 +16,7 @@ export const Footer = () => {
       <Container className="d-flex m-4 text-center align-items-center">
         <Col lg={3}>
           {" "}
-          <img src={logoFuturaWhite} style={{ width: "180px" }}></img>
+          <img src={logoFuturaWhite} style={{ width: "180px" }} alt='logo futura'></img>
         </Col>
         <Col lg={5} className="d-flex mt-3 align-items-baseline">
           <p style={{ marginRight: "25px" }}>Términos y Condiciones</p>
@@ -29,7 +29,7 @@ export const Footer = () => {
         >
           <i
             class="bi bi-linkedin "
-            style={{ fontSize: "36x", marginRight: "15px" }}
+            style={{ fontSize: "36px", marginRight: "15px" }}
           ></i>
           <i
             class="bi bi-facebook"
