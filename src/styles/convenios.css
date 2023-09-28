@@ -1,0 +1,127 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+hr {
+  width: 30%; /* Establece el ancho de la línea al 50% del contenedor */
+  background-color: #ccc; /* Establece el color de la línea */
+  border: none; /* Elimina el borde */
+  margin: 10px auto; /* Centra horizontalmente y agrega un margen superior e inferior */
+  height: 2px;
+}
+
+.convenio-button {
+  background-color: #db3987;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-top: 12px;
+  padding: 3px 20px 3px 20px;
+}
+
+.gray-background {
+  background-color: #f2f2f2; /* Color de fondo gris */
+  width: 100%; /* Abarca todo el ancho */
+  height: 100%; /* Abarca todo el alto */
+  padding: 0; /* Sin relleno */
+}
+.main-text {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+/* CSS para estilos generales de la imagen */
+.convenio-image {
+  width: 486px;
+  height: 500px;
+}
+
+.blog {
+  margin: 0;
+  font-size: 14px;
+}
+
+.mi-cuenta {
+  margin-right: 8px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.navbar-button {
+  border: none;
+  background: none;
+  transition: 0.5s;
+  font-size: 16px;
+  margin: 7px 0 0 0;
+  padding: 7px;
+}
+
+.contact-futura {
+  margin-top: 60px;
+  margin-left: 15px;
+}
+
+.contact-icons {
+  margin-right: 7px;
+  color: #db3987;
+  font-size: 18px;
+}
+
+.main-text-top {
+  color: #db3987;
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.main-text-mid {
+  color: #fff;
+  font-size: 2.2em;
+  background-color: #db3987;
+  font-weight: 700;
+  padding-left: 15px;
+  line-height: 1.5;
+}
+
+.main-text-bottom {
+  color: #000;
+  font-size: 1.4em;
+}
+
+.card-beneficios {
+  box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1),
+    /* Sombra derecha */ -4px 0 6px rgba(0, 0, 0, 0.1),
+    /* Sombra izquierda */ 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra inferior */
+}
+
+.navbar-button:hover {
+  background-color: #c7c7c7;
+  border-radius: 4px;
+}
+
+.convenio-carousel {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+/* Oculta las flechas del carrusel de Bootstrap */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+
+
+
+/* Media query para pantalla con ancho de 1366 píxeles o menos */
+@media (max-width: 1366px) {
+  .convenio-image {
+    width: 365px;
+    height: auto; /* Ancho reducido cuando la pantalla es igual o menor a 1366px */
+  }
+}
