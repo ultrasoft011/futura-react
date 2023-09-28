@@ -13,29 +13,37 @@ export const Footer = () => {
         marginTop: "7%",
       }}
     >
-      <Container className="d-flex m-4 text-center align-items-center">
+      <Container
+        className="mt-4 d-flex align-items-center"
+        style={{ paddingBottom: "15px" }}
+      >
         <Col lg={3}>
-          {" "}
-          <img src={logoFuturaWhite} style={{ width: "180px" }} alt='logo futura'></img>
+          <img
+            src={logoFuturaWhite}
+            style={{ width: "180px" }}
+            alt="logo futura"
+          ></img>
         </Col>
-        <Col lg={5} className="d-flex mt-3 align-items-baseline">
-          <p style={{ marginRight: "25px" }}>Términos y Condiciones</p>
-          <p style={{ marginLeft: "25px" }}>Sobre Nosotros</p>
+        <Col lg={4} className="d-flex mt-3 align-items-baseline">
+          <p style={{ marginRight: "25px", fontSize: "12px" }}>
+            Términos y Condiciones
+          </p>
+          <p style={{ marginLeft: "25px", fontSize: "12px" }}>Sobre Nosotros</p>
         </Col>
         <Col
-          lg={4}
+          lg={3}
           className="d-flex justify-content-center align-items-baseline"
-          style={{ marginLeft: "12%" }}
+          style={{ marginLeft: "14%" }}
         >
           <i
             class="bi bi-linkedin "
-            style={{ fontSize: "36px", marginRight: "15px" }}
+            style={{ fontSize: "30px", marginRight: "15px" }}
           ></i>
           <i
             class="bi bi-facebook"
-            style={{ fontSize: "36px", marginRight: "15px" }}
+            style={{ fontSize: "30px", marginRight: "15px" }}
           ></i>
-          <i class="bi bi-instagram" style={{ fontSize: "36px" }}></i>
+          <i class="bi bi-instagram" style={{ fontSize: "30px" }}></i>
         </Col>
       </Container>
     </footer>

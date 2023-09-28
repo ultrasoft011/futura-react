@@ -15,7 +15,7 @@ import { Footer } from "../components/Footer";
 
 export const Convenios = () => {
   return (
-    <div>
+    <div className="component-background">
       <Container
         fluid
         className="d-flex flex-column align-items-center justify-content-center"
@@ -27,18 +27,30 @@ export const Convenios = () => {
               <img
                 src={logoFutura}
                 alt="Logo futura"
-                style={{ width: "180px" }}
+                style={{ maxWidth: "180px" }}
               />
               <Row className="contact-futura">
                 <Col className="d-flex" lg={4}>
                   <i className="contact-icons bi bi-whatsapp"></i>
-                  <p style={{ fontSize: "13px", marginTop: "4px" }}>
+                  <p
+                    style={{
+                      fontSize: "13px",
+                      marginTop: "4px",
+                      color: "#000",
+                    }}
+                  >
                     +3176985753
                   </p>
                 </Col>
                 <Col className="d-flex" lg={4}>
                   <i className="contact-icons bi bi-envelope"></i>
-                  <p style={{ fontSize: "13px", marginTop: "4px" }}>
+                  <p
+                    style={{
+                      fontSize: "13px",
+                      marginTop: "4px",
+                      color: "#000",
+                    }}
+                  >
                     contacto@mifutura.co
                   </p>
                 </Col>
@@ -159,11 +171,11 @@ export const Convenios = () => {
                 <i class="bi bi-person-badge"></i>
               </button>
             </Col>
-            <Col lg={3}>
+            <Col lg={2}>
               <img
                 className="convenio-image"
                 src={convenio}
-                alt="Logo futura"
+                alt="estudiantes futura"
               />
             </Col>
           </Row>
@@ -177,6 +189,7 @@ export const Convenios = () => {
                 marginTop: "70px",
                 marginBottom: "30px",
                 fontSize: "1.8em",
+                color: "#000",
               }}
             >
               Con el apoyo de

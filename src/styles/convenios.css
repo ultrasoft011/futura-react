@@ -2,8 +2,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+p {
+  color: #000;
+}
+
+.component-background {
+  background-image: url("../assets/images/background-ahora.jpg"); /* Reemplaza 'ruta/de/imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto asegura que el fondo no se desplace con el contenido */
+  /* Ajusta otros estilos según tus necesidades, como el color de texto */
+  color: white; /* Por ejemplo, para que el texto sea legible en el fondo */
+}
+
 h3 {
-  margin-top: 20px;
+  margin-top: 23px;
+  color: #000;
 }
 
 hr {
@@ -35,7 +49,7 @@ hr {
 }
 /* CSS para estilos generales de la imagen */
 .convenio-image {
-  width: 486px;
+  max-width: 486px;
   height: 500px;
 }
 
@@ -116,12 +130,10 @@ hr {
   display: none !important;
 }
 
-
-
 /* Media query para pantalla con ancho de 1366 píxeles o menos */
 @media (max-width: 1366px) {
   .convenio-image {
-    width: 365px;
+    max-width: 323px;
     height: auto; /* Ancho reducido cuando la pantalla es igual o menor a 1366px */
   }
 }
