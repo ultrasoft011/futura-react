@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { ButtonConvenio } from "./ButtonConvenio";
 import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
-import areandina from "../assets/universidades/areandina.png";
-import compensar from "../assets/universidades/compensar.png";
-import uniremington from "../assets/universidades/uniremington.png";
-import unitec from "../assets/universidades/unitec.png";
-import uvirtual from "../assets/universidades/uvirtual.png";
-import "../styles/convenios.css";
+import areandina from "../../assets/universidades/areandina.png";
+import compensar from "../../assets/universidades/compensar.png";
+import uniremington from "../../assets/universidades/uniremington.png";
+import unitec from "../../assets/universidades/unitec.png";
+import uvirtual from "../../assets/universidades/uvirtual.png";
+import { ButtonConvenioDesktop } from "../buttons/ButtonConvenioDesktop.jsx";
+import "../../styles/convenios.css";
 
-export const CarouselConvenio = () => {
+export const CarouselConvenioDesktop = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export const CarouselConvenio = () => {
             <hr />
             <p>% Descuento</p>
             <hr />
-            <ButtonConvenio />
+            <ButtonConvenioDesktop />
           </Col>
         </Carousel.Item>
         <Carousel.Item>
@@ -52,7 +52,7 @@ export const CarouselConvenio = () => {
             <hr />
             <p>% Descuento</p>
             <hr />
-            <ButtonConvenio />
+            <ButtonConvenioDesktop />
           </Col>
         </Carousel.Item>
         <Carousel.Item>
@@ -62,7 +62,7 @@ export const CarouselConvenio = () => {
             <hr />
             <p>% Descuento</p>
             <hr />
-            <ButtonConvenio />
+            <ButtonConvenioDesktop />
           </Col>
         </Carousel.Item>
         <Carousel.Item>
@@ -72,7 +72,7 @@ export const CarouselConvenio = () => {
             <hr />
             <p>% Descuento</p>
             <hr />
-            <ButtonConvenio />
+            <ButtonConvenioDesktop />
           </Col>
         </Carousel.Item>
         <Carousel.Item>
@@ -82,7 +82,7 @@ export const CarouselConvenio = () => {
             <hr />
             <p>% Descuento</p>
             <hr />
-            <ButtonConvenio />
+            <ButtonConvenioDesktop />
           </Col>
         </Carousel.Item>
       </Carousel>

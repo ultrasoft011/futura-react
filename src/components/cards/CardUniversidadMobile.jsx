@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import universidadesData from "./universidades";
-import universidadesData from "../data/universidades.json";
-import { ButtonConvenioMobile } from "./ButtonConvenioMobile";
+import universidadesData from "../../data/universidades.json";
+import { ButtonConvenioMobile } from "../buttons/ButtonConvenioMobile";
 
 export const CardUniversidadMobile = () => {
   return (
@@ -35,7 +35,7 @@ export const CardUniversidadMobile = () => {
               </Row>
               <Row>
                 <img
-                  src={require(`../assets/universidades/${universidad.imagen}`)}
+                  src={require(`../../assets/universidades/${universidad.imagen}`)}
                   alt={universidad.nombre}
                   style={{
                     maxWidth: "80%",

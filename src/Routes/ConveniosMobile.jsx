@@ -2,9 +2,9 @@ import React from "react";
 import logoFuturaWhite from "../assets/logos/logowhite.png";
 import { Container, Row, Col } from "react-bootstrap";
 import convenio from "../assets/images/convenio-imagen-1.png";
-import { CarouselMobileConvenio } from "../components/CarouselMobileConvenio";
-import { CardUniversidadMobile } from "../components/CardUniversidadMobile";
-import { FooterMobile } from "../components/FooterMobile";
+import { CarouselConvenioMobile } from "../components/carousel/CarouselConvenioMobile";
+import { CardUniversidadMobile } from "../components/cards/CardUniversidadMobile";
+import { FooterMobile } from "../components/footer/FooterMobile";
 
 export const MobileConvenios = () => {
   return (
@@ -113,7 +113,7 @@ export const MobileConvenios = () => {
             paddingBottom: "25px",
           }}
         >
-          <CarouselMobileConvenio />
+          <CarouselConvenioMobile />
         </Row>
         <Row
           style={{

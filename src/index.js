@@ -7,7 +7,7 @@ import "./index.css";
 import { Home } from "./Routes/Home";
 
 import MediaQuery from "react-responsive";
-import { MobileConvenios } from "./Routes/MobileConvenios";
+import { MobileConvenios } from "./Routes/ConveniosMobile";
 import { ConveniosDesktop } from "./Routes/ConveniosDesktop";
 
 const router = createHashRouter([

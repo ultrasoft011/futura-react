@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
-import blueNote from "../assets/icons/blue-note.png";
-import greenGain from "../assets/icons/green-gain.png";
-import orangePackage from "../assets/icons/orange-package.png";
-import pinkPercentage from "../assets/icons/pink-percentage.png";
-import "../styles/convenios.css";
+import blueNote from "../../assets/icons/blue-note.png";
+import greenGain from "../../assets/icons/green-gain.png";
+import orangePackage from "../../assets/icons/orange-package.png";
+import pinkPercentage from "../../assets/icons/pink-percentage.png";
+import "../../styles/convenios.css";
 
-export const CarouselMobileConvenio = () => {
+export const CarouselConvenioMobile = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

@@ -6,9 +6,9 @@ import blueNote from "../assets/icons/blue-note.png";
 import greenGain from "../assets/icons/green-gain.png";
 import orangePackage from "../assets/icons/orange-package.png";
 import pinkPercentage from "../assets/icons/pink-percentage.png";
-import { CarouselConvenio } from "../components/CarouselConvenio.jsx";
+import { CarouselConvenioDesktop } from "../components/carousel/CarouselConvenioDesktop.jsx";
 import "../styles/convenios.css";
-import { Footer } from "../components/Footer";
+import { Footer } from "../components/FooterDesktop";
 
 export const ConveniosDesktop = () => {
   return (
@@ -192,7 +192,7 @@ export const ConveniosDesktop = () => {
               Con el apoyo de
             </h1>
             {/* <ControlledCarousel /> */}
-            <CarouselConvenio />
+            <CarouselConvenioDesktop />
           </Col>
         </Row>
 
