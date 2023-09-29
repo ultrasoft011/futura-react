@@ -2,15 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import universidadesData from "./universidades";
 import universidadesData from "../data/universidades.json";
-import { ButtonConvenio } from "./ButtonConvenio";
+import { ButtonConvenioMobile } from "./ButtonConvenioMobile";
 
 export const CardUniversidadMobile = () => {
   return (
-    <Container style={{ backgroundColor: "#161616"}}>
+    <Container style={{ backgroundColor: "#161616" }}>
       {universidadesData.map((universidad, index) => (
         <Row key={index}>
           <Row>
-            <Col xs={5} style={{marginLeft: '1.3em'}}>
+            <Col xs={5} style={{ marginLeft: "1.3em" }}>
               <Row style={{ marginTop: "1.2em", marginBottom: "0.3em" }}>
                 <Col>
                   <i
@@ -68,8 +68,8 @@ export const CardUniversidadMobile = () => {
             </Col>
           </Row>
 
-          <Row style={{ padding: "0 15px 0 15px", margin: '0 0 20px 0' }}>
-            <ButtonConvenio />
+          <Row style={{ padding: "0 15px 0 15px", margin: "0 0 20px 0" }}>
+            <ButtonConvenioMobile />
           </Row>
         </Row>
       ))}
