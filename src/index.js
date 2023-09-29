@@ -1,19 +1,32 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import "./index.css";
-import { Convenios } from "./Routes/Convenios";
+
 import { Home } from "./Routes/Home";
+
+import MediaQuery from "react-responsive";
+import { MobileConvenios } from "./Routes/MobileConvenios";
+import { ConveniosDesktop } from "./Routes/ConveniosDesktop";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
-
   {
     path: "/convenios",
-    element: <Convenios />,
+    element: (
+      <>
+        <MediaQuery maxWidth={767}>
+          <MobileConvenios />
+        </MediaQuery>
+        <MediaQuery minWidth={768}>
+          <ConveniosDesktop />
+        </MediaQuery>
+      </>
+    ),
   },
 ]);
 

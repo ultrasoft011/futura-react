@@ -25,10 +25,12 @@ export const Footer = () => {
           ></img>
         </Col>
         <Col lg={4} className="d-flex mt-3 align-items-baseline">
-          <p style={{ marginRight: "25px", fontSize: "12px" }}>
+          <p style={{ marginRight: "20px", fontSize: "12px", color: "#fff" }}>
             Términos y Condiciones
           </p>
-          <p style={{ marginLeft: "25px", fontSize: "12px" }}>Sobre Nosotros</p>
+          <p style={{ marginLeft: "20px", fontSize: "12px", color: "#fff" }}>
+            Sobre Nosotros
+          </p>
         </Col>
         <Col
           lg={3}

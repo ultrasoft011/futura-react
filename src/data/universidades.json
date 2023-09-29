@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Fundación Universitaria del Área Andina",
+    "imagen": "areandina.png",
+    "descuento": "% Descuento 1"
+  },
+  {
+    "nombre": "Corporación Universitaria Unitec",
+    "imagen": "unitec.png",
+    "descuento": "% Descuento 2"
+  },
+  {
+    "nombre": "Universitaria Virtual Internacional",
+    "imagen": "uvirtual.png",
+    "descuento": "% Descuento 3"
+  },
+  {
+    "nombre": "Corporación Universitaria Remington",
+    "imagen": "uniremington.png",
+    "descuento": "% Descuento 4"
+  },
+  {
+    "nombre": "Fundación Universitaria Compensar",
+    "imagen": "compensar.png",
+    "descuento": "% Descuento 5"
+  }
+]

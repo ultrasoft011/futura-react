@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import logoFutura from "../assets/logos/logo.png";
 import convenio from "../assets/images/convenio-imagen-1.png";
 import blueNote from "../assets/icons/blue-note.png";
@@ -13,7 +10,7 @@ import { CarouselConvenio } from "../components/CarouselConvenio.jsx";
 import "../styles/convenios.css";
 import { Footer } from "../components/Footer";
 
-export const Convenios = () => {
+export const ConveniosDesktop = () => {
   return (
     <div className="component-background">
       <Container
