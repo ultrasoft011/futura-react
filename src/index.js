@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createHashRouter } from "react-router-dom";
 
 import "./index.css";
 
@@ -10,7 +10,7 @@ import MediaQuery from "react-responsive";
 import { MobileConvenios } from "./Routes/MobileConvenios";
 import { ConveniosDesktop } from "./Routes/ConveniosDesktop";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
