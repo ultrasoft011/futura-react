@@ -12,7 +12,7 @@ export const FooterMobile = () => {
       }}
     >
       <Container
-        className="mt-4 d-flex align-items-center"
+        className="mt-2 d-flex align-items-center"
         style={{ paddingBottom: "15px" }}
       >
         <Col

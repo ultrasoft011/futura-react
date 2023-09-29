@@ -11,7 +11,7 @@ export const CardUniversidadMobile = () => {
         <Row key={index}>
           <Row>
             <Col xs={5} style={{marginLeft: '1.3em'}}>
-              <Row style={{ marginTop: "10px", marginBottom: "0.3em" }}>
+              <Row style={{ marginTop: "1.2em", marginBottom: "0.3em" }}>
                 <Col>
                   <i
                     class="bi bi-heart"
@@ -50,7 +50,7 @@ export const CardUniversidadMobile = () => {
                   color: "#fff",
                   fontSize: "1em",
                   fontWeight: 700,
-                  marginTop: "10px",
+                  marginTop: "1.2em",
                 }}
               >
                 {universidad.nombre}
