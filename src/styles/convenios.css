@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 p {
@@ -35,7 +35,6 @@ hr {
   border-radius: 3px;
   padding: 2px 15px 1px 15px;
   font-size: 1.2em;
-
 }
 
 .gray-background {
@@ -124,12 +123,16 @@ hr {
 .carousel-indicators {
   display: none;
 }
+/* .carousel-item {
+  height: 830px; /* Ajusta la altura según tus necesidades */
+  /* justify-content: center;
+  align-items: center; 
+} */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: transparent; /* Elimina el fondo gris de los controles */
 }
-
 
 /* Oculta las flechas del carrusel de Bootstrap */
 .carousel-control-prev,

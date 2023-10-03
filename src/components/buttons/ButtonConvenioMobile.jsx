@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-export const ButtonConvenioMobile = () => {
+export const ButtonConvenioMobile = ({ id }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    // Redirige al usuario a la página de la universidad correspondiente
+    navigate(`/universidad/${id}`);
+  };
   return (
     <button
       style={{
@@ -14,6 +21,7 @@ export const ButtonConvenioMobile = () => {
         fontSize: " 0.8em",
         width: "60%",
       }}
+      onClick={handleClick}
     >
       CONOCE LA UNIVERSIDAD
     </button>

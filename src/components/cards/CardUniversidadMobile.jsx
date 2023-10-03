@@ -69,7 +69,7 @@ export const CardUniversidadMobile = () => {
           </Row>
 
           <Row style={{ padding: "0 15px 0 15px", margin: "0 0 20px 0" }}>
-            <ButtonConvenioMobile />
+            <ButtonConvenioMobile id={universidad.id} />
           </Row>
         </Row>
       ))}

@@ -6,7 +6,7 @@ import { CarouselConvenioMobile } from "../components/carousel/CarouselConvenioM
 import { CardUniversidadMobile } from "../components/cards/CardUniversidadMobile";
 import { FooterMobile } from "../components/footer/FooterMobile";
 
-export const MobileConvenios = () => {
+export const ConveniosMobile = () => {
   return (
     <div
       style={{
