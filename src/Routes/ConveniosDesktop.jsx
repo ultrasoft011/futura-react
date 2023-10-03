@@ -8,7 +8,7 @@ import orangePackage from "../assets/icons/orange-package.png";
 import pinkPercentage from "../assets/icons/pink-percentage.png";
 import { CarouselConvenioDesktop } from "../components/carousel/CarouselConvenioDesktop.jsx";
 import "../styles/convenios.css";
-import { Footer } from "../components/FooterDesktop";
+// import { Footer } from "../components/FooterDesktop";
 
 export const ConveniosDesktop = () => {
   return (
@@ -196,7 +196,7 @@ export const ConveniosDesktop = () => {
           </Col>
         </Row>
 
-        <Footer />
+        {/* <Footer /> */}
       </Container>
     </div>
   );
